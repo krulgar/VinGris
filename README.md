@@ -1,3 +1,5 @@
+<pre>
+
 # VinGris
 Add configurability to your enterprise java applications.
 The VinGris.xml file will incorporated into your app as soon as it is updated, no need to restart your app.
@@ -23,3 +25,4 @@ Inside your java classes which will be reading configurations (one pattern is to
 	    //The above should match the "suite" element's "name" attribute in VinGris.xml
 	public static final String VINGRIS_APP   = "YourApplicationName";
 	    //The above should match the "application" element's "name" attribute in VinGris.xml
+</pre>
