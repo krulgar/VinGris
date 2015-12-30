@@ -11,14 +11,7 @@ Step 4:  Add the -DVinGris=/path/to/VinGris.xml to your application server java 
 Step 5:  Update your application for different environments (dev/staging/prod) through the config file, not the code.  Relax more.
 
 
-The VinGris.xml file should look like this:
-
-.  <?xml version='1.0' encoding='utf-8'?>
-.  <suite name="YourCompanyName">
-.	  <application name="YourApplicationName">
-.		  <property name="config.test"  value="VinGris Configuration"/>		
-.	  </application>
-.  </suite>
+The VinGris.xml file should look like the VinGris.xml file example.
 
 Inside your java classes which will be reading configurations (one pattern is to have a ConfigurationReader that responds to requests):
 	public static final String VINGRIS_SUITE = "YourCompanyName";      
