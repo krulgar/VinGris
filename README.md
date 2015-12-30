@@ -12,14 +12,13 @@ Step 5:  Update your application for different environments (dev/staging/prod) t
 
 
 The VinGris.xml file should look like this:
-<pre>
-  <?xml version='1.0' encoding='utf-8'?>
-  <suite name="YourCompanyName">
-	  <application name="YourApplicationName">
-		  <property name="config.test"  value="VinGris Configuration"/>		
-	  </application>
-  </suite>
-</pre>
+
+.  <?xml version='1.0' encoding='utf-8'?>
+.  <suite name="YourCompanyName">
+.	  <application name="YourApplicationName">
+.		  <property name="config.test"  value="VinGris Configuration"/>		
+.	  </application>
+.  </suite>
 
 Inside your java classes which will be reading configurations (one pattern is to have a ConfigurationReader that responds to requests):
 	public static final String VINGRIS_SUITE = "YourCompanyName";      
