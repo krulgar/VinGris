@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<suite name="YourCompany">
+	<application name="YourApplication">
+		<property name="config.test"  value="VinGris Configuration"/>		
+	</application>
+</suite>
